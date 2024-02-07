@@ -1,11 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
-import Sample from './components/Sample';
+import HookEffect from './components/EffectHook';
+import NumberAdder from './components/NumberAdder';
+// import UserInput from './components/UserInput';
+import ScoreGrader from './components/ScoreGrader';
 
 function App() {
   return (
     <div className="App">
-      <Sample></Sample>
+      {/* <UserInput/> */}
+      {/* <ScoreGrader/> */}
+      {/* <NumberAdder/> */}
+      <HookEffect/>
     </div>
   );
 }
